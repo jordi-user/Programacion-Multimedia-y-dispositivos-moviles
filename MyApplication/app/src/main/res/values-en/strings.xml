@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Hola Mundo con Idiomas</string>
     <string name="texto_a_mostrar">Hello World</string>
 </resources>
