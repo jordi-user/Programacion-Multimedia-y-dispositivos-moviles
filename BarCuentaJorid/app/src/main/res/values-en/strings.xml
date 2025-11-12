@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bar Account App</string>
+    <string name="nombre_camarero">Waiter name</string>
+    <string name="introduce_total">Enter total amount</string>
+    <string name="incluir_propina">Include tip</string>
+    <string name="efectivo">Cash</string>
+    <string name="tarjeta">Card</string>
+    <string name="califica_servicio">Rate the service:</string>
+    <string name="calcular_total">Calculate Total</string>
+    <string name="propina_text">Tip: %1$d%%</string>
+    <string name="error_faltavalor">⚠️ You must enter the bill amount.</string>
+    <string name="error_numero">⚠️ Enter a valid number.</string>
+    <string name="error_mayorcero">⚠️ The total must be greater than 0.</string>
+</resources>

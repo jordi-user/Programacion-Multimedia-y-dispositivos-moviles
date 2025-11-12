@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BarCuentaApp</string>
+    <string name="nombre_camarero">Nombre del camarero</string>
+    <string name="introduce_total">Introduce el total de la cuenta</string>
+    <string name="incluir_propina">Incluir propina</string>
+    <string name="efectivo">Efectivo</string>
+    <string name="tarjeta">Tarjeta</string>
+    <string name="califica_servicio">Califica el servicio:</string>
+    <string name="calcular_total">Calcular Total</string>
+    <string name="propina_text">Propina: %1$d%%</string> <!-- para usar con String.format si quieres -->
+    <string name="error_faltavalor">⚠️ Debes introducir el valor de la cuenta.</string>
+    <string name="error_numero">⚠️ Introduce un número válido.</string>
+    <string name="error_mayorcero">⚠️ El total debe ser mayor que 0.</string>
+</resources>
