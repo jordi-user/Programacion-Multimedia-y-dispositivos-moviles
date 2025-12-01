@@ -1,11 +1,11 @@
+package com.example.adaptadorespersonalizados_jordi;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
-import com.example.adaptadorespersonalizados_jordi.R;
 
 public class Adaptador extends ArrayAdapter<Datos> {
     private Datos[] datos;
