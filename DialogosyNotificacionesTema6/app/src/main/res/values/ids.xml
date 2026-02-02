@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="dateTextView" type="id" />
+    <item name="showDatePickerButton" type="id" />
+    <item name="timeTextView" type="id">1</item>
+    <item name="showTimePickerButton" type="id">2</item>
 </resources>
