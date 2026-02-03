@@ -26,23 +26,18 @@ public class Fragment1 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-
             View view = inflater.inflate(R.layout.fragment1_layout, container, false);
-
 
         inputLayout = view.findViewById(R.id.inputLayout);
         editText = view.findViewById(R.id.editText);
         btnSubmit = view.findViewById(R.id.btnSubmit);
 
-
         btnSubmit.setOnClickListener(v -> {
             String text = editText.getText().toString();
-
 
             if (TextUtils.isEmpty(text)) {
                 inputLayout.setError("El campo no puede estar vacío");
             } else {
-                inputLayout.setError(null);
                 Toast.makeText(getContext(),
                         "Formulario enviado: " + text,
                         Toast.LENGTH_SHORT).show();
